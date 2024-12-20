@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>chat.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="hero">
+    <h1>chatbox upcoming</h1>
+    <h2></h2>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">login</button>
+                 <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+            </div>
+             <div class="social-icons">
+            <img src="instagram.jpg" alt="">
+            <img src="google_PNG19635.png" alt="">
+            <img src="Facebook-logo-modern-paint-splash-social-media-png.png" alt="">
+        </div>
+        <form id="Log In" class="input-group">
+               <input class="input-field" placeholder="User Id" required type="text">
+               <input class="input-field" placeholder="Enter password" required type="text">
+               <input type="checkbox" class="check-box"><span>Remember Password</span>
+               <button type="submit" class="submit-btn">login</button>
+        </form>
+         <form id="Register" class="input-group">
+               <input class="input-field" placeholder="User Id" required type="text">
+               <input class="input-field" placeholder="Email Id" required type="email">
+               <input class="input-field" placeholder="Enter password" required type="text">
+               <input type="checkbox" class="check-box"><span>i agree to the terms & conditions</span>
+               <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+        <script>
+        var x = document.getElementById("Log In");
+        var y = document.getElementById("Register");
+        var z = document.getElementById("btn");
+
+        function Register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+
+        </script>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+        
+        
+
+
+
+</body>
+</html>

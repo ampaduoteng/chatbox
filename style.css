@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about-intro, .about-details, .team {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+}
+/* Service Page Specific Styles */
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: #2a9d8f;
+}
+
+.service-item p {
+    color: #555;
+}
+/* Contact Page Specific Styles */
+.contact-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.contact-form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #21867a;
+}
+
+.contact-info {
+    margin-top: 3rem;
+}
+
+.contact-info h2 {
+    color: #2a9d8f;
+}
+
+.contact-info p {
+    color: #555;
+}
+/* style.css */
+.team-image{
+    width: 250px;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: auto;
+}
+.team-image:hover  {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+/* style.css */
+#contact-us{
+    text-align: center;
+    padding: 20px;
+}
+.contact-image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
